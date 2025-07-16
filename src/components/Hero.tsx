@@ -114,6 +114,62 @@ const Hero = () => {
 
           {/* Right Side - Professional Image */}
           <div className="relative lg:mt-0 mt-16">
+            {/* Content Above Image */}
+            <div className="mb-8 space-y-6">
+              {/* Trust Indicators */}
+              <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-6">
+                <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                  <span className="text-white text-sm font-medium">500+ Projects Delivered</span>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 flex items-center space-x-2">
+                  <Award className="text-yellow-400" size={16} />
+                  <span className="text-white text-sm font-medium">ISO Certified</span>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 flex items-center space-x-2">
+                  <Globe className="text-blue-400" size={16} />
+                  <span className="text-white text-sm font-medium">15+ Countries</span>
+                </div>
+              </div>
+
+              {/* Client Testimonial Quote */}
+              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
+                <div className="flex items-start space-x-4">
+                  <div className="text-blue-400 text-4xl font-serif">"</div>
+                  <div>
+                    <p className="text-white/90 italic text-lg leading-relaxed mb-4">
+                      Vedanza transformed our entire digital infrastructure. Their expertise 
+                      and dedication exceeded our expectations.
+                    </p>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
+                        <span className="text-white font-bold text-sm">JD</span>
+                      </div>
+                      <div>
+                        <div className="text-white font-semibold">John Davis</div>
+                        <div className="text-blue-300 text-sm">CTO, TechCorp Solutions</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technology Stack Preview */}
+              <div className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
+                <h3 className="text-white font-semibold mb-4 flex items-center">
+                  <Code className="mr-2 text-blue-400" size={20} />
+                  Our Technology Stack
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {['React', 'Node.js', 'Python', 'Java', 'AWS', 'Docker', 'MongoDB', 'PostgreSQL'].map((tech, index) => (
+                    <span key={index} className="bg-white/10 text-white px-3 py-1 rounded-full text-sm border border-white/20 hover:bg-white/20 transition-colors">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             <div className="relative">
               {/* Main Image Container */}
               <div className="relative overflow-hidden rounded-3xl shadow-2xl">
