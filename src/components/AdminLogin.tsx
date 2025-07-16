@@ -100,10 +100,14 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
           </button>
         </form>
 
-        <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-          <h4 className="font-semibold text-gray-900 mb-2">Admin Credentials:</h4>
-          <p className="text-sm text-gray-600">Username: <code className="bg-gray-200 px-2 py-1 rounded">vedanza_admin</code></p>
-          <p className="text-sm text-gray-600">Password: <code className="bg-gray-200 px-2 py-1 rounded">Vedanza@2024</code></p>
+        <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+          <div className="flex items-center space-x-2 text-blue-800">
+            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+            <p className="text-sm font-medium">Secure Admin Access</p>
+          </div>
+          <p className="text-xs text-blue-600 mt-1">
+            Contact system administrator for login credentials
+          </p>
         </div>
       </div>
     </div>

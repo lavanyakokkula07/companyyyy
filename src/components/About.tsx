@@ -53,7 +53,7 @@ const About = () => {
 
         <div className="mt-20">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl">
+            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
               <Target className="mx-auto mb-4 text-blue-600" size={48} />
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Our Mission</h3>
               <p className="text-gray-600">
@@ -61,7 +61,7 @@ const About = () => {
                 efficiency, and competitive advantage in the digital marketplace.
               </p>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl">
+            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
               <Eye className="mx-auto mb-4 text-purple-600" size={48} />
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Our Vision</h3>
               <p className="text-gray-600">
@@ -69,7 +69,7 @@ const About = () => {
                 excellence, innovation, and transformative digital solutions.
               </p>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-teal-50 rounded-xl">
+            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-teal-50 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
               <Users className="mx-auto mb-4 text-green-600" size={48} />
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Our Values</h3>
               <p className="text-gray-600">

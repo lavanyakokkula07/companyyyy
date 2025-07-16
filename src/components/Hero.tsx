@@ -29,11 +29,14 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center group">
-                Explore Services
+                <a href="#services">Explore Services</a>
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
               </button>
-              <button className="border-2 border-blue-400 hover:bg-blue-400 hover:text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-                Join Our Team
+              <button className="border-2 border-blue-400 hover:bg-blue-400 hover:text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 group">
+                <a href="#internships" className="flex items-center">
+                  Join Our Team
+                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
+                </a>
               </button>
             </div>
 
